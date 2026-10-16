@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>50+ Career Options After 10th in India (2026) — Path, Exams, Skills &amp; Salary by Sector</title>
+<meta name="description" content="Explore 50+ careers open to Indian students after Class 10 — software, data science, engineering, medicine, CA, law, civil services, design, defence, agriculture, teaching and skilled trades. Each with the exact path, entrance exams, skills and indicative salary range, filterable by stream and sector.">
+<meta name="keywords" content="career options after 10th in India, best career after 10th, jobs after 10th, career list with salary India, career after 10th for girls, salary after 10th, technology careers India, healthcare careers, commerce careers, arts careers, defence careers, skilled trade jobs India, which career is best after 10th">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://harikrishnasetty.github.io/career-path-india/careers.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="50+ Career Options After 10th in India — Path, Exams, Skills &amp; Salary">
+<meta property="og:description" content="Filter 50+ careers by stream and sector. Every card shows the step-by-step path, exams, skills and indicative salary.">
+<meta property="og:url" content="https://harikrishnasetty.github.io/career-path-india/careers.html">
+<meta property="og:image" content="https://harikrishnasetty.github.io/career-path-india/assets/banner.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#4f46e5">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><span class="logo">CP</span><span>Career Path India<small>After 10th Guide</small></span></a>
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="streams.html">Streams</a>
+      <a href="exams.html">Exams</a>
+      <a href="careers.html" class="active">Careers</a>
+      <a href="map.html">Career Map</a>
+      <a href="roadmap.html">Roadmap</a>
+      <a href="quiz.html">Stream Quiz</a>
+      <a href="glossary.html">Glossary</a>
+      <a href="resources.html">Resources</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Switch theme">&#9789;</button>
+      <button class="icon-btn nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> &#8250; Careers &amp; sectors</div>
+    <h1>50+ careers after 10th — with the exact path, exams and salary</h1>
+    <p>Each card shows: which streams can reach it, the step-by-step path, the entrance exams involved, skills to start building now, and an indicative Indian salary range. Filter by <strong>sector</strong> or by <strong>your stream</strong>, or just search a job name.</p>
+  </div>
+</section>
+
+<!-- ============ FILTERS ============ -->
+<section style="padding-top:26px;padding-bottom:6px;">
+  <div class="container">
+    <div class="filter-bar" id="careerFilters">
+      <div class="filter-row">
+        <span class="filter-label">Sector</span>
+        <button class="filter-btn on" data-group="sector" data-value="all">All</button>
+        <button class="filter-btn" data-group="sector" data-value="tech">Tech &amp; IT</button>
+        <button class="filter-btn" data-group="sector" data-value="engineering">Engineering</button>
+        <button class="filter-btn" data-group="sector" data-value="healthcare">Healthcare</button>
+        <button class="filter-btn" data-group="sector" data-value="finance">Finance &amp; Business</button>
+        <button class="filter-btn" data-group="sector" data-value="govt">Govt &amp; Defence</button>
+        <button class="filter-btn" data-group="sector" data-value="law">Law</button>
+        <button class="filter-btn" data-group="sector" data-value="creative">Design &amp; Media</button>
+        <button class="filter-btn" data-group="sector" data-value="science">Science &amp; Research</button>
+        <button class="filter-btn" data-group="sector" data-value="agri">Agriculture</button>
+        <button class="filter-btn" data-group="sector" data-value="education">Education &amp; Social</button>
+        <button class="filter-btn" data-group="sector" data-value="trades">Skilled Trades</button>
+        <button class="filter-btn" data-group="sector" data-value="hospitality">Hospitality &amp; Travel</button>
+      </div>
+      <div class="filter-row">
+        <span class="filter-label">Stream</span>
+        <button class="filter-btn on" data-group="stream" data-value="all">All</button>
+        <button class="filter-btn" data-group="stream" data-value="pcm">Science PCM</button>
+        <button class="filter-btn" data-group="stream" data-value="pcb">Science PCB</button>
+        <button class="filter-btn" data-group="stream" data-value="commerce">Commerce</button>
+        <button class="filter-btn" data-group="stream" data-value="arts">Arts</button>
+        <button class="filter-btn" data-group="stream" data-value="diploma">Diploma</button>
+        <button class="filter-btn" data-group="stream" data-value="iti">ITI</button>
+      </div>
+      <div class="filter-row">
+        <div class="search-box"><input type="search" id="careerSearch" placeholder="Search a career… e.g. doctor, designer, pilot, CA" aria-label="Search careers"></div>
+        <span class="result-count" id="careerCount"></span>
+        <button class="filter-btn" id="careerReset" type="button">Reset</button>
+      </div>
+    </div>
+    <p class="muted" style="margin-bottom:20px;">Salary shown is an <strong>indicative 2025–26 Indian range</strong> for a fresher moving to early experience — real pay depends on skill, city, institute, company and category. It is a rough compass, not a guarantee.</p>
+  </div>
+</section>
+
+<!-- ============ TECHNOLOGY ============ -->
+<section id="tech" style="padding-top:16px;">
+  <div class="container">
+    <div class="section-head"><span class="kicker">Sector 01</span><h2>Technology &amp; IT careers</h2><p>India's largest private-sector employer. Skill matters more than the name of your degree — portfolios, projects and internships decide your first job.</p></div>
+    <div class="grid grid-3 career-list">
+
+      <article class="item-card" data-sector="tech" data-stream="pcm commerce arts">
+        <div class="ic-top"><div><h3>Software Developer / Engineer</h3><span class="ic-full">Builds websites, apps and software products</span></div><span class="badge info">High demand</span></div>
+        <div class="chips"><span class="chip brand">PCM, Commerce, Arts (via BCA)</span><span class="chip green">&#8377;4–12 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 (Maths/CS helps) &#8594; B.Tech CSE / BCA / BSc CS &#8594; internships + projects &#8594; job</span></div>
+          <div><span class="lbl">Exams</span><span>JEE Main, CUET, state CETs, university tests</span></div>
+          <div><span class="lbl">Skills</span><span>Programming (Python/Java/JS), data structures, Git, problem solving</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="tech" data-stream="pcm commerce arts">
+        <div class="ic-top"><div><h3>Data Scientist / Analyst</h3><span class="ic-full">Turns raw data into business decisions</span></div><span class="badge info">High demand</span></div>
+        <div class="chips"><span class="chip brand">Any stream with Maths/Stats</span><span class="chip green">&#8377;5–12 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 with Maths &#8594; B.Sc Stats/Maths, B.Tech, BCA or B.Com &#8594; projects + certifications &#8594; job</span></div>
+          <div><span class="lbl">Exams</span><span>CUET, JEE, private university entrances</span></div>
+          <div><span class="lbl">Skills</span><span>Python, SQL, statistics, Excel, Power BI/Tableau</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="tech" data-stream="pcm">
+        <div class="ic-top"><div><h3>AI / Machine Learning Engineer</h3><span class="ic-full">Builds systems that learn from data</span></div><span class="badge info">Fast growing</span></div>
+        <div class="chips"><span class="chip brand">PCM</span><span class="chip green">&#8377;6–15 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCM &#8594; B.Tech CSE/AI/Data Science &#8594; MSc or specialised certifications &#8594; ML roles</span></div>
+          <div><span class="lbl">Exams</span><span>JEE Main/Advanced, state CETs</span></div>
+          <div><span class="lbl">Skills</span><span>Python, maths-heavy statistics, ML frameworks, maths olympiad style thinking</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="tech" data-stream="pcm commerce arts iti">
+        <div class="ic-top"><div><h3>Cybersecurity Analyst</h3><span class="ic-full">Protects systems, networks and data from attacks</span></div><span class="badge info">Growing</span></div>
+        <div class="chips"><span class="chip rose">Certifications matter</span><span class="chip green">&#8377;4–10 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 (any) &#8594; B.Tech/BCA/BSc + certifications (CompTIA Security+, CEH) &#8594; SOC analyst roles</span></div>
+          <div><span class="lbl">Exams</span><span>CUET, university entrances; then vendor certification exams</span></div>
+          <div><span class="lbl">Skills</span><span>Networking, Linux, ethical hacking labs, attention to detail</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="tech" data-stream="pcm commerce">
+        <div class="ic-top"><div><h3>Cloud / DevOps Engineer</h3><span class="ic-full">Runs and automates servers and cloud systems</span></div><span class="badge active">Active</span></div>
+        <div class="chips"><span class="chip brand">PCM, Commerce</span><span class="chip green">&#8377;5–12 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 &#8594; B.Tech/BCA/BSc &#8594; AWS/Azure/GCP certification + internships</span></div>
+          <div><span class="lbl">Exams</span><span>University entrances; cloud certification exams</span></div>
+          <div><span class="lbl">Skills</span><span>Linux, networking, scripting, CI/CD, containers</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="tech" data-stream="arts commerce pcm">
+        <div class="ic-top"><div><h3>UX / UI Designer</h3><span class="ic-full">Designs how apps and websites feel to use</span></div><span class="badge active">Active</span></div>
+        <div class="chips"><span class="chip violet">Design at a tech company</span><span class="chip green">&#8377;4–10 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Any stream &#8594; B.Des (UCEED/NID) or BCA/BS + design certifications &#8594; portfolio &#8594; job</span></div>
+          <div><span class="lbl">Exams</span><span>UCEED, NID DAT, university design tests</span></div>
+          <div><span class="lbl">Skills</span><span>Figma, user research, visual design, empathy, storytelling</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ ENGINEERING ============ -->
+<section id="engineering" style="background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+  <div class="container">
+    <div class="section-head"><span class="kicker">Sector 02</span><h2>Engineering &amp; infrastructure careers</h2><p>Build the country — roads, bridges, machines, circuits, buildings and now smart infrastructure. Diploma offers a faster, practical entry into the same field.</p></div>
+    <div class="grid grid-3 career-list">
+
+      <article class="item-card" data-sector="engineering" data-stream="pcm diploma">
+        <div class="ic-top"><div><h3>Civil Engineer</h3><span class="ic-full">Designs and builds infrastructure — roads, bridges, buildings</span></div><span class="badge active">Core field</span></div>
+        <div class="chips"><span class="chip brand">PCM / Diploma</span><span class="chip green">&#8377;3.5–8 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCM &#8594; B.Tech Civil (JEE/state CET) <em>or</em> Diploma Civil &#8594; junior engineer job &#8594; lateral-entry B.Tech</span></div>
+          <div><span class="lbl">Exams</span><span>JEE Main, state CETs, JEECUP/POLYCET for the diploma route</span></div>
+          <div><span class="lbl">Skills</span><span>AutoCAD, surveying, project planning, site management</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="engineering" data-stream="pcm diploma">
+        <div class="ic-top"><div><h3>Mechanical Engineer</h3><span class="ic-full">Designs machines, engines and manufacturing systems</span></div><span class="badge active">Core field</span></div>
+        <div class="chips"><span class="chip brand">PCM / Diploma</span><span class="chip green">&#8377;3.5–8 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCM &#8594; B.Tech Mechanical <em>or</em> Diploma Mechanical &#8594; manufacturing/maintenance jobs</span></div>
+          <div><span class="lbl">Exams</span><span>JEE Main, state CETs, diploma entrances</span></div>
+          <div><span class="lbl">Skills</span><span>CAD (SolidWorks/AutoCAD), thermodynamics, machining, teamwork</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="engineering" data-stream="pcm diploma">
+        <div class="ic-top"><div><h3>Electrical / Electronics Engineer</h3><span class="ic-full">Power systems, circuits, chips and electronics devices</span></div><span class="badge active">Core field</span></div>
+        <div class="chips"><span class="chip brand">PCM / Diploma</span><span class="chip green">&#8377;3.5–9 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCM &#8594; B.Tech EEE/ECE <em>or</em> Diploma Electrical/Electronics &#8594; jobs in power, PSUs, electronics manufacturing</span></div>
+          <div><span class="lbl">Exams</span><span>JEE, state CETs, diploma entrances; later SSC JE / PSU exams</span></div>
+          <div><span class="lbl">Skills</span><span>Circuit analysis, MATLAB, PLC basics, soldering &amp; lab work</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="engineering" data-stream="pcm">
+        <div class="ic-top"><div><h3>Architect</h3><span class="ic-full">Designs buildings that are safe, functional and beautiful</span></div><span class="badge active">Creative + technical</span></div>
+        <div class="chips"><span class="chip sky">PCM with Maths</span><span class="chip green">&#8377;3.5–8 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 with Maths &#8594; NATA / JEE Paper 2 &#8594; 5-year B.Arch &#8594; internship &#8594; licence to practise</span></div>
+          <div><span class="lbl">Exams</span><span>NATA (Council of Architecture), JEE Main Paper 2</span></div>
+          <div><span class="lbl">Skills</span><span>Drawing, 3D software, spatial thinking, building codes</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="engineering" data-stream="diploma pcm iti">
+        <div class="ic-top"><div><h3>Junior Engineer (Government)</h3><span class="ic-full">Technical officer roles in state departments, PSUs and railways</span></div><span class="badge info">Diploma's best route</span></div>
+        <div class="chips"><span class="chip violet">Diploma / ITI + experience</span><span class="chip green">&#8377;3–7 LPA + govt benefits</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Diploma (3 yrs) &#8594; SSC JE / state JE / PSU recruitment &#8594; junior engineer post; can upskill to B.Tech later</span></div>
+          <div><span class="lbl">Exams</span><span>SSC JE, state PSC/board JE exams, PSU recruitments</span></div>
+          <div><span class="lbl">Skills</span><span>Technical drafting, site supervision, govt exam reasoning &amp; GK</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="engineering" data-stream="pcm">
+        <div class="ic-top"><div><h3>Aerospace / Aviation Engineer</h3><span class="ic-full">Aircraft, drones, satellites and propulsion systems</span></div><span class="badge active">Niche</span></div>
+        <div class="chips"><span class="chip brand">PCM</span><span class="chip green">&#8377;4–10 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCM &#8594; B.Tech Aerospace/Aeronautical (IITs/NITs/IIST) &#8594; M.Tech or ISRO/DRDO/HAL/private aerospace</span></div>
+          <div><span class="lbl">Exams</span><span>JEE Advanced (for IITs), JEE Main, state CETs</span></div>
+          <div><span class="lbl">Skills</span><span>Physics &amp; fluid mechanics, CAD/CFD, precision, safety mindset</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ HEALTHCARE ============ -->
+<section id="healthcare">
+  <div class="container">
+    <div class="section-head"><span class="kicker">Sector 03</span><h2>Healthcare &amp; medicine careers</h2><p>Long study, high respect, strong job security. Most routes need PCB in Class 12 and the NEET exam — but nursing, pharmacy, physiotherapy and allied health are excellent, less crowded options in the same sector.</p></div>
+    <div class="grid grid-3 career-list">
+
+      <article class="item-card" data-sector="healthcare" data-stream="pcb">
+        <div class="ic-top"><div><h3>Doctor (MBBS)</h3><span class="ic-full">Diagnoses and treats patients; can specialise later</span></div><span class="badge info">Prestigious</span></div>
+        <div class="chips"><span class="chip teal">PCB</span><span class="chip green">&#8377;6–12 LPA (higher after PG)</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCB &#8594; NEET UG &#8594; MBBS (5.5 yrs incl. internship) &#8594; practice / MD/MS via NEET PG</span></div>
+          <div><span class="lbl">Exams</span><span>NEET UG (then NEET PG)</span></div>
+          <div><span class="lbl">Skills</span><span>Biology mastery, patience, empathy, long-haul discipline</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="healthcare" data-stream="pcb">
+        <div class="ic-top"><div><h3>Dentist (BDS)</h3><span class="ic-full">Oral health specialist with independent practice options</span></div><span class="badge active">Active</span></div>
+        <div class="chips"><span class="chip teal">PCB</span><span class="chip green">&#8377;4–8 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCB &#8594; NEET UG &#8594; BDS (5 yrs) &#8594; own clinic, hospital or MDS specialisation</span></div>
+          <div><span class="lbl">Exams</span><span>NEET UG, then NEET MDS</span></div>
+          <div><span class="lbl">Skills</span><span>Fine motor skills, biology, patient handling, business sense for a clinic</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="healthcare" data-stream="pcb">
+        <div class="ic-top"><div><h3>Nurse (B.Sc Nursing)</h3><span class="ic-full">Core of hospital care; huge global demand</span></div><span class="badge info">In-demand globally</span></div>
+        <div class="chips"><span class="chip teal">PCB</span><span class="chip green">&#8377;3–6 LPA (abroad much higher)</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCB &#8594; B.Sc Nursing (state/nursing entrance, 4 yrs) &#8594; hospital jobs; PG (M.Sc Nursing) or overseas options later</span></div>
+          <div><span class="lbl">Exams</span><span>State nursing entrance tests / NEET-based admissions (varies by state)</span></div>
+          <div><span class="lbl">Skills</span><span>Clinical care, communication, composure under pressure</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="healthcare" data-stream="pcb pcm">
+        <div class="ic-top"><div><h3>Pharmacist</h3><span class="ic-full">Medicines expert — hospital, industry or own shop</span></div><span class="badge active">Active</span></div>
+        <div class="chips"><span class="chip teal">PCB / PCM</span><span class="chip green">&#8377;2.5–6 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 (PCB/PCM) &#8594; D.Pharm (2 yrs) or B.Pharm (4 yrs) &#8594; retail/hospital/industry; M.Pharm or Pharm.D for research &amp; clinical roles</span></div>
+          <div><span class="lbl">Exams</span><span>State pharmacy entrance tests (some states use NEET)</span></div>
+          <div><span class="lbl">Skills</span><span>Chemistry, accuracy, regulatory knowledge, inventory sense</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="healthcare" data-stream="pcb">
+        <div class="ic-top"><div><h3>Physiotherapist (BPT)</h3><span class="ic-full">Rehabilitates patients after injury, surgery or disability</span></div><span class="badge active">Growing</span></div>
+        <div class="chips"><span class="chip teal">PCB</span><span class="chip green">&#8377;3–6 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCB &#8594; BPT (4.5 yrs) &#8594; hospitals, sports teams, home care or own clinic; MPT to specialise</span></div>
+          <div><span class="lbl">Exams</span><span>State/college entrance tests for BPT</span></div>
+          <div><span class="lbl">Skills</span><span>Anatomy, hands-on technique, motivation skills, fitness</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="healthcare" data-stream="pcb">
+        <div class="ic-top"><div><h3>Veterinarian (BVSc &amp; AH)</h3><span class="ic-full">Animal doctor — pets, livestock, wildlife</span></div><span class="badge active">Active</span></div>
+        <div class="chips"><span class="chip teal">PCB</span><span class="chip green">&#8377;4–8 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCB &#8594; BVSc &amp; AH (5.5 yrs) via state veterinary entrances or NEET-linked quotas &#8594; clinics, govt vet service, dairy/poultry industry</span></div>
+          <div><span class="lbl">Exams</span><span>State veterinary entrance exams (check current mode each year)</span></div>
+          <div><span class="lbl">Skills</span><span>Biology, courage with animals, field work, farm economics</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="healthcare" data-stream="arts pcb">
+        <div class="ic-top"><div><h3>Psychologist / Counsellor</h3><span class="ic-full">Mental health, schools, organisations and clinics</span></div><span class="badge info">Rising demand</span></div>
+        <div class="chips"><span class="chip teal">Arts/Psychology or PCB</span><span class="chip green">&#8377;3–8 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 with Psychology (Arts) &#8594; BA/BSc Psychology &#8594; MA/M.Sc &#8594; clinical practice, school counselling, HR/wellness roles</span></div>
+          <div><span class="lbl">Exams</span><span>CUET, university entrances (UG &amp; PG)</span></div>
+          <div><span class="lbl">Skills</span><span>Listening, empathy, research methods, confidentiality</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="healthcare" data-stream="pcb">
+        <div class="ic-top"><div><h3>Allied Health Technician</h3><span class="ic-full">Lab, radiology, OT, dialysis and imaging technicians</span></div><span class="badge active">Steady jobs</span></div>
+        <div class="chips"><span class="chip teal">PCB</span><span class="chip green">&#8377;2.5–6 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCB &#8594; BSc/diploma in Medical Lab Technology, Radiology, OT Technology, Dialysis (state paramedical entrances) &#8594; hospital/lab jobs</span></div>
+          <div><span class="lbl">Exams</span><span>State paramedical admission processes / university entrances</span></div>
+          <div><span class="lbl">Skills</span><span>Precision, machine handling, infection control, empathy</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINANCE & BUSINESS ============ -->
+<section id="finance" style="background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+  <div class="container">
+    <div class="section-head"><span class="kicker">Sector 04</span><h2>Finance, banking &amp; business careers</h2><p>Commerce's strongest ground. Professional qualifications like CA/CS/CMA can start right after Class 12 and often beat engineering salaries by your late twenties.</p></div>
+    <div class="grid grid-3 career-list">
+
+      <article class="item-card" data-sector="finance" data-stream="commerce arts pcm">
+        <div class="ic-top"><div><h3>Chartered Accountant (CA)</h3><span class="ic-full">Audit, tax and financial advisory — one of India's most respected qualifications</span></div><span class="badge info">Top earning</span></div>
+        <div class="chips"><span class="chip teal">Any stream after 12</span><span class="chip green">&#8377;8–15 LPA (on qualifying)</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 &#8594; CA Foundation &#8594; CA Intermediate &#8594; 2-yr articleship &#8594; CA Final &#8594; membership (ICAI)</span></div>
+          <div><span class="lbl">Exams</span><span>ICAI Foundation / Intermediate / Final (own exam system, not a university degree)</span></div>
+          <div><span class="lbl">Skills</span><span>Accounts, taxation, audit, consistency over 4–5 years of exams</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="finance" data-stream="commerce arts">
+        <div class="ic-top"><div><h3>Company Secretary (CS)</h3><span class="ic-full">Corporate law, governance and compliance expert</span></div><span class="badge active">Active</span></div>
+        <div class="chips"><span class="chip teal">Commerce / Arts</span><span class="chip green">&#8377;5–10 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 &#8594; CSEET &#8594; CS Executive &#8594; CS Professional + training &#8594; ICSI membership</span></div>
+          <div><span class="lbl">Exams</span><span>ICSI CSEET and executive/professional levels</span></div>
+          <div><span class="lbl">Skills</span><span>Company law, drafting, compliance, attention to detail</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="finance" data-stream="commerce">
+        <div class="ic-top"><div><h3>Cost &amp; Management Accountant (CMA)</h3><span class="ic-full">Costing and management accounting for industry</span></div><span class="badge active">Active</span></div>
+        <div class="chips"><span class="chip teal">Commerce</span><span class="chip green">&#8377;5–10 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 &#8594; CMA Foundation &#8594; Intermediate &#8594; Final + training &#8594; ICMAI membership</span></div>
+          <div><span class="lbl">Exams</span><span>ICMAI Foundation / Inter / Final</span></div>
+          <div><span class="lbl">Skills</span><span>Costing, budgeting, analytics, manufacturing economics</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="finance" data-stream="commerce pcm">
+        <div class="ic-top"><div><h3>Investment Banker / Financial Analyst</h3><span class="ic-full">Markets, valuations, mergers and equity research</span></div><span class="badge info">High paying</span></div>
+        <div class="chips"><span class="chip teal">Commerce + Maths best</span><span class="chip green">&#8377;6–15 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 with Maths &#8594; B.Com/BBA/BA Economics &#8594; CFA/FRM or MBA &#8594; analyst roles</span></div>
+          <div><span class="lbl">Exams</span><span>CUET, IPMAT, university entrances; later CAT/GMAT and CFA</span></div>
+          <div><span class="lbl">Skills</span><span>Excel modelling, valuation, economics, extreme reading stamina</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="finance" data-stream="pcm commerce">
+        <div class="ic-top"><div><h3>Actuary</h3><span class="ic-full">Insurance and risk mathematics — small field, very high pay</span></div><span class="badge info">Elite niche</span></div>
+        <div class="chips"><span class="chip sky">Maths essential</span><span class="chip green">&#8377;6–15 LPA+</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 with Maths &#8594; ACET entrance &#8594; B.Sc Actuarial Science / any maths degree + professional exams &#8594; fellow actuary</span></div>
+          <div><span class="lbl">Exams</span><span>ACET (Institute of Actuaries of India), then a long professional exam series</span></div>
+          <div><span class="lbl">Skills</span><span>Statistics, probability, financial maths, persistence over years</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="finance" data-stream="any">
+        <div class="ic-top"><div><h3>Banker (IBPS / SBI / RBI)</h3><span class="ic-full">Public-sector banking careers — officer and clerk levels</span></div><span class="badge info">Stable govt-type job</span></div>
+        <div class="chips"><span class="chip green">Any graduate</span><span class="chip green">&#8377;4–12 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Any graduation (B.Com/BBA/BA/BSc) &#8594; IBPS PO/Clerk, SBI PO, or RBI Grade B exam &#8594; posting</span></div>
+          <div><span class="lbl">Exams</span><span>IBPS, SBI, RBI recruitment exams (prelims + mains + interview)</span></div>
+          <div><span class="lbl">Skills</span><span>Quantitative aptitude, reasoning, English, banking awareness</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="finance" data-stream="any">
+        <div class="ic-top"><div><h3>Digital Marketer</h3><span class="ic-full">Runs ads, SEO, social and content for brands</span></div><span class="badge active">Skill-based</span></div>
+        <div class="chips"><span class="chip green">Any stream</span><span class="chip green">&#8377;3–8 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Any degree (or even during college) + certifications + real projects/freelancing &#8594; agency or in-house roles</span></div>
+          <div><span class="lbl">Exams</span><span>No entrance exam — certifications and portfolio matter</span></div>
+          <div><span class="lbl">Skills</span><span>SEO, Google/Meta ads, analytics, copywriting, creativity</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="finance" data-stream="any">
+        <div class="ic-top"><div><h3>Entrepreneur / Startup Founder</h3><span class="ic-full">Build your own business — no degree required, but skills are</span></div><span class="badge info">High risk, high reward</span></div>
+        <div class="chips"><span class="chip green">Any stream</span><span class="chip green">Unlimited (and zero)</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Any stream &#8594; learn a skill + solve a real problem &#8594; start small (local service, reselling, content, software) &#8594; grow with customers</span></div>
+          <div><span class="lbl">Exams</span><span>None — but BBA/B.Com/engineering helps with networks and fundamentals</span></div>
+          <div><span class="lbl">Skills</span><span>Selling, money management, resilience, learning from failure</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ GOVT & DEFENCE ============ -->
+<section id="govt">
+  <div class="container">
+    <div class="section-head"><span class="kicker">Sector 05</span><h2>Government, defence &amp; public service careers</h2><p>Stability, respect and pensions. Some routes (Agniveer, SSC GD) open right after Class 10, while UPSC and officer roles come after graduation.</p></div>
+    <div class="grid grid-3 career-list">
+
+      <article class="item-card" data-sector="govt" data-stream="any">
+        <div class="ic-top"><div><h3>Civil Servant (IAS / IPS / IFS)</h3><span class="ic-full">Top administrative, police and foreign service posts</span></div><span class="badge info">Most aspirational</span></div>
+        <div class="chips"><span class="chip green">Any graduate</span><span class="chip green">&#8377;8–15 LPA + benefits</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Any graduation (BA recommended for optional subjects) &#8594; UPSC Civil Services Exam (Prelims &#8594; Mains &#8594; Interview) &#8594; training</span></div>
+          <div><span class="lbl">Exams</span><span>UPSC CSE — start serious reading in Class 12/first year, not later</span></div>
+          <div><span class="lbl">Skills</span><span>Current affairs, essay writing, reasoning, GK, consistency over 2–4 years</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="govt" data-stream="pcm arts commerce">
+        <div class="ic-top"><div><h3>Defence Officer (NDA route)</h3><span class="ic-full">Commissioned officer in Army, Navy or Air Force</span></div><span class="badge info">Prestige + free degree</span></div>
+        <div class="chips"><span class="chip rose">Army: any stream; AF/Navy: PCM</span><span class="chip green">&#8377;8–12 LPA + benefits</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 (appearing OK) &#8594; UPSC NDA exam (April/September) &#8594; SSB interview &#8594; 3–4 yrs academy training with a degree &#8594; commission</span></div>
+          <div><span class="lbl">Exams</span><span>NDA &amp; NA (UPSC); age roughly 16.5–19.5, unmarried</span></div>
+          <div><span class="lbl">Skills</span><span>Fitness, maths &amp; GK, leadership, discipline, English</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="govt" data-stream="iti pcm arts commerce">
+        <div class="ic-top"><div><h3>Agniveer (Soldier / Sailor / Airman)</h3><span class="ic-full">Four-year armed forces entry — some trades need only Class 10</span></div><span class="badge active">Active</span></div>
+        <div class="chips"><span class="chip rose">Class 10 or 12 by trade</span><span class="chip green">&#8377;4.5–6.5 LPA package</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 10/12 &#8594; Agniveer notification &amp; rally/written test &#8594; physical + medical &#8594; training &#8594; 4 years service with Seva Nidhi payout at exit</span></div>
+          <div><span class="lbl">Exams</span><span>Agniveer recruitment by Army/Navy/Air Force (trade-wise eligibility — verify carefully)</span></div>
+          <div><span class="lbl">Skills</span><span>Fitness, discipline, trade skill, team work</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="govt" data-stream="any">
+        <div class="ic-top"><div><h3>Police / Paramilitary</h3><span class="ic-full">Constable to officer ranks in state police and CAPFs</span></div><span class="badge active">Active</span></div>
+        <div class="chips"><span class="chip green">10th (SSC GD) / 12th / graduate</span><span class="chip green">&#8377;3.5–6 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 10 (SSC GD) or Class 12/graduation for state police &#8594; written exam &#8594; physical test &#8594; medical &#8594; training</span></div>
+          <div><span class="lbl">Exams</span><span>SSC GD, state police constable/SI exams, CAPF exams</span></div>
+          <div><span class="lbl">Skills</span><span>Physical fitness, GK, reasoning, integrity, courage</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="govt" data-stream="any">
+        <div class="ic-top"><div><h3>Teacher / Professor</h3><span class="ic-full">Shapes the next generation — school to university levels</span></div><span class="badge active">Stable</span></div>
+        <div class="chips"><span class="chip green">Any stream (graduate)</span><span class="chip green">&#8377;3.5–8 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Graduation + B.Ed (school) &#8594; CTET/state TET &#8594; govt/private teacher; or PG + UGC NET for college teaching</span></div>
+          <div><span class="lbl">Exams</span><span>CTET / state TET, UGC NET / SET, university faculty recruitment</span></div>
+          <div><span class="lbl">Skills</span><span>Subject mastery, explaining clearly, patience, classroom management</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="govt" data-stream="any">
+        <div class="ic-top"><div><h3>Government Clerical / Railways</h3><span class="ic-full">SSC CHSL, RRB NTPC and other central/state office posts</span></div><span class="badge active">Active</span></div>
+        <div class="chips"><span class="chip green">12th / graduate</span><span class="chip green">&#8377;3–6 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 (CHSL) or graduation (CGL/NTPC) &#8594; written exams &#8594; typing/skill tests where required &#8594; posting</span></div>
+          <div><span class="lbl">Exams</span><span>SSC CHSL, SSC CGL (graduates), RRB NTPC, state equivalents</span></div>
+          <div><span class="lbl">Skills</span><span>Quant, reasoning, English, typing speed, accuracy</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ LAW ============ -->
+<section id="law" style="background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+  <div class="container">
+    <div class="section-head"><span class="kicker">Sector 06</span><h2>Law &amp; legal careers</h2><p>Any stream can become a lawyer — what matters is your reading, reasoning and CLAT preparation. Corporate law is among the highest-paying non-engineering careers for a fresh graduate.</p></div>
+    <div class="grid grid-3 career-list">
+
+      <article class="item-card" data-sector="law" data-stream="any">
+        <div class="ic-top"><div><h3>Advocate / Lawyer</h3><span class="ic-full">Represents clients in courts; litigation or corporate practice</span></div><span class="badge info">Any stream can apply</span></div>
+        <div class="chips"><span class="chip amber">12th any stream &#8594; CLAT</span><span class="chip green">&#8377;4–12+ LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 (any stream) &#8594; CLAT/AILET/university law entrance &#8594; 5-yr integrated LLB (BA/BBA/BCom LLB) &#8594; Bar exam &#8594; practice or corporate firm</span></div>
+          <div><span class="lbl">Exams</span><span>CLAT, AILET, state law entrances (e.g., MH CET Law), university tests</span></div>
+          <div><span class="lbl">Skills</span><span>Reading, logical reasoning, legal aptitude, debating, English</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="law" data-stream="any">
+        <div class="ic-top"><div><h3>Corporate Counsel / Legal Advisor</h3><span class="ic-full">In-house lawyer for companies, banks and startups</span></div><span class="badge active">Active</span></div>
+        <div class="chips"><span class="chip amber">LLB (5-yr or 3-yr after graduation)</span><span class="chip green">&#8377;5–12 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>LLB (integrated after 12, or 3-yr after any graduation) &#8594; internships in firms/corporates &#8594; compliance &amp; contracts roles</span></div>
+          <div><span class="lbl">Exams</span><span>CLAT/state entrances for law; DU LLB etc. for 3-yr course</span></div>
+          <div><span class="lbl">Skills</span><span>Contract drafting, commercial awareness, negotiation, research</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="law" data-stream="any">
+        <div class="ic-top"><div><h3>Judiciary / Public Law</h3><span class="ic-full">Judge, public prosecutor, legal services authority roles</span></div><span class="badge active">Long but stable</span></div>
+        <div class="chips"><span class="chip amber">LLB + state judiciary exam</span><span class="chip green">&#8377;8–12 LPA (judge post)</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>LLB &#8594; practice for the required years &#8594; state judicial services exam (or direct recruitment for some posts)</span></div>
+          <div><span class="lbl">Exams</span><span>State Public Service Commission judicial service exams</span></div>
+          <div><span class="lbl">Skills</span><span>Procedural law, judgement writing, integrity, patience</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ CREATIVE ============ -->
+<section id="creative">
+  <div class="container">
+    <div class="section-head"><span class="kicker">Sector 07</span><h2>Design, media &amp; creative careers</h2><p>The most stream-agnostic sector. Portfolio beats marks here — start building work (sketches, videos, articles, small projects) from Class 11 itself.</p></div>
+    <div class="grid grid-3 career-list">
+
+      <article class="item-card" data-sector="creative" data-stream="any">
+        <div class="ic-top"><div><h3>Graphic / Visual Designer</h3><span class="ic-full">Logos, packaging, social media and brand visuals</span></div><span class="badge active">Portfolio-based</span></div>
+        <div class="chips"><span class="chip violet">Any stream</span><span class="chip green">&#8377;3–8 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Any stream &#8594; B.Des / BFA / diplomas in design &#8594; strong portfolio &#8594; agency, in-house studio or freelance</span></div>
+          <div><span class="lbl">Exams</span><span>NID DAT, UCEED, NIFT, college-level design tests</span></div>
+          <div><span class="lbl">Skills</span><span>Adobe suite/Figma, typography, colour sense, client communication</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="creative" data-stream="any">
+        <div class="ic-top"><div><h3>Fashion Designer</h3><span class="ic-full">Apparel design, textiles and fashion brands</span></div><span class="badge info">NIFT / NID</span></div>
+        <div class="chips"><span class="chip violet">Any stream</span><span class="chip green">&#8377;3–8 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 (any stream) &#8594; NIFT/NID/university design entrance &#8594; B.Des Fashion &#8594; internships &#8594; brands, labels or own line</span></div>
+          <div><span class="lbl">Exams</span><span>NIFT entrance (GAT + CAT + situation test), NID DAT</span></div>
+          <div><span class="lbl">Skills</span><span>Sketching, sewing/textiles, trend awareness, branding</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="creative" data-stream="any">
+        <div class="ic-top"><div><h3>Animator / Video Editor / VFX Artist</h3><span class="ic-full">Films, OTT, ads, games and YouTube content</span></div><span class="badge info">Booming</span></div>
+        <div class="chips"><span class="chip violet">Any stream</span><span class="chip green">&#8377;3–9 LPA (freelance can exceed)</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Any stream &#8594; B.Des/BFA/animation diploma or self-taught + short courses &#8594; studio, agency or freelance projects</span></div>
+          <div><span class="lbl">Exams</span><span>Design/animation college entrances (no national mandatory exam)</span></div>
+          <div><span class="lbl">Skills</span><span>Premiere/AE/Blender/Maya, storytelling, timing, editing rhythm</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="creative" data-stream="arts any">
+        <div class="ic-top"><div><h3>Journalist / Content Creator</h3><span class="ic-full">Reporting, editing and digital media</span></div><span class="badge active">Active</span></div>
+        <div class="chips"><span class="chip amber">Arts preferred, any stream OK</span><span class="chip green">&#8377;3–8 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 &#8594; BA Journalism/Mass Communication (CUET/university entrances) or any degree + writing portfolio &#8594; newsroom, digital publisher, own channel</span></div>
+          <div><span class="lbl">Exams</span><span>CUET, IIMC/university mass-communication entrances</span></div>
+          <div><span class="lbl">Skills</span><span>Writing, interviewing, fact-checking, video/audio editing</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="creative" data-stream="any">
+        <div class="ic-top"><div><h3>Hotel Management / Chef</h3><span class="ic-full">Hotels, restaurants, culinary arts, cruise ships</span></div><span class="badge active">Active</span></div>
+        <div class="chips"><span class="chip amber">Any stream</span><span class="chip green">&#8377;3–7 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 (any stream) &#8594; NCHM JEE / IHM or private institute &#8594; B.Sc Hospitality or culinary course &#8594; hotels, cruise liners, own restaurant</span></div>
+          <div><span class="lbl">Exams</span><span>NCHM JEE (NTA), state/university hotel-management entrances</span></div>
+          <div><span class="lbl">Skills</span><span>English, service attitude, stamina, teamwork, hygiene discipline</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="creative" data-stream="any">
+        <div class="ic-top"><div><h3>Cabin Crew / Aviation Services</h3><span class="ic-full">Airline cabin crew, ground and airport services</span></div><span class="badge active">Active</span></div>
+        <div class="chips"><span class="chip amber">10+2, good English</span><span class="chip green">&#8377;4–9 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 &#8594; airline recruitment drives or cabin-crew training institutes &#8594; grooming + safety training &#8594; crew</span></div>
+          <div><span class="lbl">Exams</span><span>Airline aptitude tests + interviews (no national exam)</span></div>
+          <div><span class="lbl">Skills</span><span>Communication, grooming, height/vision requirements, composure</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ SCIENCE & RESEARCH ============ -->
+<section id="science" style="background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+  <div class="container">
+    <div class="section-head"><span class="kicker">Sector 08</span><h2>Science &amp; research careers</h2><p>For students who want to discover, not just apply. ISRO, DRDO, CSIR labs, biotech and forensics need strong fundamentals from Class 11 onward.</p></div>
+    <div class="grid grid-3 career-list">
+
+      <article class="item-card" data-sector="science" data-stream="pcm pcb">
+        <div class="ic-top"><div><h3>Scientist / Researcher</h3><span class="ic-full">ISRO, DRDO, CSIR labs, national research institutes</span></div><span class="badge info">Nation-building</span></div>
+        <div class="chips"><span class="chip brand">PCM / PCB</span><span class="chip green">&#8377;7–15 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCM/PCB &#8594; B.Tech/B.Sc &#8594; M.Tech/M.Sc &#8594; GATE / CSIR-NET / ISRO-ICRB / DRDO recruitment &#8594; scientist post</span></div>
+          <div><span class="lbl">Exams</span><span>JEE/CUET for UG, then GATE, CSIR-NET, institute-specific tests</span></div>
+          <div><span class="lbl">Skills</span><span>Deep physics/maths/biology, research method, patience, publishing</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="science" data-stream="pcb pcm">
+        <div class="ic-top"><div><h3>Forensic Scientist</h3><span class="ic-full">Crime labs, DNA, cyber forensics and ballistics</span></div><span class="badge info">Rare, respected</span></div>
+        <div class="chips"><span class="chip brand">PCB / PCM</span><span class="chip green">&#8377;4–8 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCB/PCM &#8594; B.Sc Forensic Science &#8594; M.Sc &#8594; state/central forensic labs, police, agencies</span></div>
+          <div><span class="lbl">Exams</span><span>University entrances for B.Sc/M.Sc Forensic Science; govt lab recruitment</span></div>
+          <div><span class="lbl">Skills</span><span>Chemistry/biology lab work, observation, chain-of-custody discipline</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="science" data-stream="pcb pcm">
+        <div class="ic-top"><div><h3>Food Technologist</h3><span class="ic-full">Food safety, processing and product development</span></div><span class="badge active">Growing</span></div>
+        <div class="chips"><span class="chip teal">PCB / PCM</span><span class="chip green">&#8377;3.5–8 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCB/PCM &#8594; B.Tech/B.Sc Food Technology &#8594; FMCG companies, quality labs, QA/QC or R&amp;D</span></div>
+          <div><span class="lbl">Exams</span><span>ICAR/CUET/state entrances for food technology programmes</span></div>
+          <div><span class="lbl">Skills</span><span>Chemistry &amp; microbiology, process discipline, quality standards</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="science" data-stream="pcb pcm">
+        <div class="ic-top"><div><h3>Environmental Scientist</h3><span class="ic-full">Climate, pollution control, sustainability and EIA</span></div><span class="badge info">Future-proof</span></div>
+        <div class="chips"><span class="chip green">Science background</span><span class="chip green">&#8377;3–7 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Any science stream &#8594; B.Sc Environmental Science &#8594; M.Sc &#8594; pollution control boards, consultancies, CSR/sustainability teams</span></div>
+          <div><span class="lbl">Exams</span><span>CUET and university entrances; later UGC NET for research/teaching</span></div>
+          <div><span class="lbl">Skills</span><span>Field sampling, GIS/data tools, report writing, policy awareness</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="science" data-stream="pcb pcm">
+        <div class="ic-top"><div><h3>Biotechnologist</h3><span class="ic-full">Genetics, vaccines, pharma R&amp;D and agri-biotech</span></div><span class="badge info">Research-heavy</span></div>
+        <div class="chips"><span class="chip teal">PCB</span><span class="chip green">&#8377;3.5–8 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCB &#8594; B.Sc/B.Tech Biotechnology &#8594; M.Sc &#8594; pharma/biotech companies or research institutes</span></div>
+          <div><span class="lbl">Exams</span><span>CUET, university entrances, GAT-B for PG</span></div>
+          <div><span class="lbl">Skills</span><span>Lab technique, molecular biology, data analysis, persistence</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="science" data-stream="pcm pcb">
+        <div class="ic-top"><div><h3>Pilot</h3><span class="ic-full">Commercial aviation — airline or private</span></div><span class="badge info">Expensive training</span></div>
+        <div class="chips"><span class="chip sky">PCM (for many routes)</span><span class="chip green">&#8377;10–25 LPA+</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCM in Class 12 &#8594; DGCA-approved flying school &#8594; CPL (Commercial Pilot Licence) with medicals &#8594; type rating &#8594; airline; or Air Force via NDA</span></div>
+          <div><span class="lbl">Exams</span><span>DGCA exams + flying hours; medical fitness is the big filter</span></div>
+          <div><span class="lbl">Skills</span><span>Physics/maths, situational awareness, English, health &amp; eyesight</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ AGRICULTURE ============ -->
+<section id="agri">
+  <div class="container">
+    <div class="section-head"><span class="kicker">Sector 09</span><h2>Agriculture &amp; environment careers</h2><p>Often overlooked and quietly one of the most government-employable sectors in India — plus agri-tech startups are booming.</p></div>
+    <div class="grid grid-3 career-list">
+
+      <article class="item-card" data-sector="agri" data-stream="pcb pcm">
+        <div class="ic-top"><div><h3>Agriculture Officer / B.Sc Agriculture</h3><span class="ic-full">Government agriculture services, research and agri-business</span></div><span class="badge info">Govt sector opens</span></div>
+        <div class="chips"><span class="chip teal">PCB / PCM / Agri stream</span><span class="chip green">&#8377;3.5–8 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 (PCB/PCM/Agriculture) &#8594; B.Sc Agriculture (4 yrs) via ICAR/CUET/state entrances &#8594; state agriculture services, banks (agri officer), agri-companies</span></div>
+          <div><span class="lbl">Exams</span><span>ICAR/CUET/state agricultural university entrances; later IBPS AFO and state exams</span></div>
+          <div><span class="lbl">Skills</span><span>Agronomy, soil science, extension communication, field work stamina</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="agri" data-stream="any">
+        <div class="ic-top"><div><h3>Agri-Entrepreneur / Modern Farming</h3><span class="ic-full">Own farm business, dairy, poultry, agri-tech services</span></div><span class="badge active">Active</span></div>
+        <div class="chips"><span class="chip green">Any stream</span><span class="chip green">Variable — scalable</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Any stream &#8594; B.Sc Agri / agri-diploma / family experience + government schemes (soil health, drip irrigation, KCC loans) &#8594; own agri-enterprise</span></div>
+          <div><span class="lbl">Exams</span><span>No entrance exam; state agriculture department schemes assist entry</span></div>
+          <div><span class="lbl">Skills</span><span>Business sense, mechanics of farming, market linkage, weather/nutrition knowledge</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="agri" data-stream="pcb pcm">
+        <div class="ic-top"><div><h3>Agri-Tech / Food Processing Specialist</h3><span class="ic-full">Modernise the food supply chain with data and machinery</span></div><span class="badge info">Modern</span></div>
+        <div class="chips"><span class="chip green">PCB / PCM</span><span class="chip green">&#8377;4–9 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCB/PCM &#8594; B.Tech Food Tech / Agri Engineering / B.Sc Agri &#8594; startups, FMCG supply chains, agri-input companies</span></div>
+          <div><span class="lbl">Exams</span><span>ICAR/CUET, state entrances, JEE for agri engineering</span></div>
+          <div><span class="lbl">Skills</span><span>Supply chains, IoT basics, data analysis, field trials</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION & SOCIAL ============ -->
+<section id="education" style="background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+  <div class="container">
+    <div class="section-head"><span class="kicker">Sector 10</span><h2>Education &amp; social impact careers</h2><p>For students who want their work to directly help people. Works from any stream — and pairs beautifully with any subject interest.</p></div>
+    <div class="grid grid-3 career-list">
+
+      <article class="item-card" data-sector="education" data-stream="any">
+        <div class="ic-top"><div><h3>Social Worker / NGO Professional</h3><span class="ic-full">Community development, child rights, women's empowerment, disaster relief</span></div><span class="badge active">Meaningful</span></div>
+        <div class="chips"><span class="chip amber">Any stream</span><span class="chip green">&#8377;2.5–6 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Any graduation (BA Social Work preferred) &#8594; MSW &#8594; NGOs, government programs, CSR teams, international agencies</span></div>
+          <div><span class="lbl">Exams</span><span>CUET/university entrances for BA &amp; MSW</span></div>
+          <div><span class="lbl">Skills</span><span>Empathy, field work, communication, project management, local languages</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="education" data-stream="arts commerce">
+        <div class="ic-top"><div><h3>Public Policy Analyst</h3><span class="ic-full">Design and evaluate government policies and programs</span></div><span class="badge info">Elite niche</span></div>
+        <div class="chips"><span class="chip amber">Arts / Commerce</span><span class="chip green">&#8377;4–10 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>BA Economics/Pol Science &#8594; MA Public Policy (e.g., at leading institutions) &#8594; think tanks, government advisory, consulting</span></div>
+          <div><span class="lbl">Exams</span><span>CUET and university entrances (UG &amp; PG levels)</span></div>
+          <div><span class="lbl">Skills</span><span>Economics, statistics, writing, reading policy documents, data</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="education" data-stream="any">
+        <div class="ic-top"><div><h3>EdTech / Online Educator</h3><span class="ic-full">Teach online, create courses, tutor students across India</span></div><span class="badge info">Skill-based</span></div>
+        <div class="chips"><span class="chip green">Any stream (strong subject needed)</span><span class="chip green">&#8377;3–10 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Any graduation + mastery of one subject &#8594; teach on platforms, create content, tutor; grow your own channel</span></div>
+          <div><span class="lbl">Exams</span><span>None mandatory; teaching certifications help credibility</span></div>
+          <div><span class="lbl">Skills</span><span>Clear explanation, camera comfort, planning, student empathy</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLED TRADES ============ -->
+<section id="trades">
+  <div class="container">
+    <div class="section-head"><span class="kicker">Sector 11</span><h2>Skilled trades &amp; technical careers (ITI)</h2><p>India's skilled labour shortage is real. ITI trades give you an employable skill in under two years, with apprenticeships that pay a stipend while you learn.</p></div>
+    <div class="grid grid-3 career-list">
+
+      <article class="item-card" data-sector="trades" data-stream="iti">
+        <div class="ic-top"><div><h3>Electrician</h3><span class="ic-full">Wiring, installation, maintenance — everywhere from homes to factories</span></div><span class="badge active">High demand</span></div>
+        <div class="chips"><span class="chip rose">ITI Electrician</span><span class="chip green">&#8377;1.8–5 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 10 &#8594; ITI Electrician (2 yrs) &#8594; apprenticeship &#8594; industrial/construction jobs, government electrical posts, or own electrical business</span></div>
+          <div><span class="lbl">Exams</span><span>State ITI admission; then All India Trade Test for certification</span></div>
+          <div><span class="lbl">Skills</span><span>Safety, circuits, tools, customer handling, problem diagnosis</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="trades" data-stream="iti">
+        <div class="ic-top"><div><h3>Fitter / Machinist / Welder</h3><span class="ic-full">Precision manufacturing, fabrication and maintenance trades</span></div><span class="badge info">Industry backbone</span></div>
+        <div class="chips"><span class="chip rose">ITI trade</span><span class="chip green">&#8377;2–5 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 10 &#8594; ITI trade course (1–2 yrs) &#8594; apprenticeship in PSU/factory &#8594; technician roles, railway/defence/industrial jobs, or fabrication business</span></div>
+          <div><span class="lbl">Exams</span><span>State ITI admission; NCVT/SCVT trade certificate</span></div>
+          <div><span class="lbl">Skills</span><span>Blueprint reading, precision, tool handling, safety, physical stamina</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="trades" data-stream="iti pcm commerce arts">
+        <div class="ic-top"><div><h3>COPA / Computer Operator</h3><span class="ic-full">Office computing, data entry, hardware basics and support</span></div><span class="badge active">Easy entry</span></div>
+        <div class="chips"><span class="chip rose">ITI COPA</span><span class="chip green">&#8377;1.8–4.5 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 10 &#8594; ITI COPA (1 yr) &#8594; data entry/office jobs, IT support, further certifications (Tally, Excel, networking)</span></div>
+          <div><span class="lbl">Exams</span><span>State ITI admission; trade test</span></div>
+          <div><span class="lbl">Skills</span><span>Typing speed, MS Office, basic networking, accuracy</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="trades" data-stream="iti">
+        <div class="ic-top"><div><h3>Mechanic (Motor Vehicle / AC &amp; Refrigeration)</h3><span class="ic-full">Automobile and cooling system service technician</span></div><span class="badge info">Self-employment friendly</span></div>
+        <div class="chips"><span class="chip rose">ITI trade</span><span class="chip green">&#8377;2–5 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 10 &#8594; ITI Mechanic (1–2 yrs) &#8594; service centres, EV workshops (fast-growing), or own garage</span></div>
+          <div><span class="lbl">Exams</span><span>State ITI admission; trade certification</span></div>
+          <div><span class="lbl">Skills</span><span>Engine/diagnostics knowledge, electricals, customer service, EV basics</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOSPITALITY & TRANSPORT ============ -->
+<section id="hospitality" style="background:var(--surface);border-top:1px solid var(--border);">
+  <div class="container">
+    <div class="section-head"><span class="kicker">Sector 12</span><h2>Hospitality, travel &amp; transport careers</h2><p>Travelling work, global mobility and quick entry after 10+2. Hotels, cruise lines, shipping and tourism reward service attitude over marks.</p></div>
+    <div class="grid grid-3 career-list">
+
+      <article class="item-card" data-sector="hospitality" data-stream="any">
+        <div class="ic-top"><div><h3>Hotel &amp; Hospitality Manager</h3><span class="ic-full">Front office, F&amp;B, events and resorts</span></div><span class="badge active">Active</span></div>
+        <div class="chips"><span class="chip amber">10+2 any stream</span><span class="chip green">&#8377;3–7 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 &#8594; NCHM JEE / IHM B.Sc &#8594; management trainee &#8594; department head; international hotel chains recruit actively</span></div>
+          <div><span class="lbl">Exams</span><span>NCHM JEE, state hotel-management entrances</span></div>
+          <div><span class="lbl">Skills</span><span>English &amp; another language, guest service, operations, leadership</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="hospitality" data-stream="pcm">
+        <div class="ic-top"><div><h3>Merchant Navy Officer</h3><span class="ic-full">Sailing officer on cargo and cruise ships</span></div><span class="badge info">High pay, sea life</span></div>
+        <div class="chips"><span class="chip sky">PCM for officer route</span><span class="chip green">&#8377;6–20 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>PCM &#8594; B.Sc Nautical Science / B.Tech Marine Engineering (CETs like IMU-CET) &#8594; cadetship &#8594; officer ranks. GP rating/crew courses have their own eligibility — verify each</span></div>
+          <div><span class="lbl">Exams</span><span>IMU CET and institute tests; medical fitness mandatory</span></div>
+          <div><span class="lbl">Skills</span><span>Physics &amp; maths, discipline, English, life at sea resilience</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="hospitality" data-stream="any">
+        <div class="ic-top"><div><h3>Travel &amp; Tourism Professional</h3><span class="ic-full">Tour operations, travel tech, guiding and destination management</span></div><span class="badge active">Recovering fast</span></div>
+        <div class="chips"><span class="chip amber">Any stream</span><span class="chip green">&#8377;2.5–6 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 12 &#8594; BA/BBA Tourism or diploma &#8594; travel agencies, OTAs, airlines, own tour business</span></div>
+          <div><span class="lbl">Exams</span><span>University entrances / CUET for tourism programmes</span></div>
+          <div><span class="lbl">Skills</span><span>Languages, geography, booking software, storytelling, sales</span></div>
+        </div>
+      </article>
+
+      <article class="item-card" data-sector="hospitality" data-stream="iti any">
+        <div class="ic-top"><div><h3>Logistics &amp; Warehouse Operations</h3><span class="ic-full">The supply chain that moves everything in India</span></div><span class="badge info">Booming</span></div>
+        <div class="chips"><span class="chip rose">10th/ITI/12th</span><span class="chip green">&#8377;2.5–6 LPA</span></div>
+        <div class="ic-meta">
+          <div><span class="lbl">Path</span><span>Class 10/12 &#8594; warehouse/3PL jobs or logistics diplomas &#8594; supervisor &#8594; operations manager; e-commerce warehouses hire at scale</span></div>
+          <div><span class="lbl">Exams</span><span>No national exam; certifications (SCM basics) help growth</span></div>
+          <div><span class="lbl">Skills</span><span>Inventory systems, WMS software, forklift/licence, team supervision</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<div class="empty-state" id="careerEmpty">
+  <h3>No careers match that filter</h3>
+  <p>Try a different sector/stream combination, or clear the search box.</p>
+</div>
+
+<section style="background:var(--brand-soft);">
+  <div class="container text-center">
+    <h2>Found something you like?</h2>
+    <p class="lead" style="max-width:660px;margin:0 auto 22px;">Now work backwards: which Class 11 stream keeps that career open, and which exams do you eventually need? The streams page and roadmap answer both.</p>
+    <a href="streams.html" class="btn btn-primary">Compare the streams &#8594;</a>
+    <a href="roadmap.html" class="btn btn-ghost" style="margin-left:8px;">Open the roadmap</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html" style="margin-bottom:12px;"><span class="logo">CP</span><span>Career Path India</span></a>
+        <p>A free, student-friendly guide to streams, entrance exams and career opportunities after Class 10 in India — written so a Class 9 student can understand every word.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="streams.html">All streams after 10th</a>
+        <a href="exams.html">Entrance &amp; scholarship exams</a>
+        <a href="careers.html">Career &amp; sector map</a>
+        <a href="roadmap.html">Class 9 to career roadmap</a>
+      </div>
+      <div>
+        <h4>Tools</h4>
+        <a href="map.html">Interactive career map</a>
+        <a href="quiz.html">Stream Finder quiz</a>
+        <a href="glossary.html">Student glossary A–Z</a>
+        <a href="resources.html">Official links &amp; free learning</a>
+        <a href="exams.html#scholarships">Scholarship list</a>
+      </div>
+      <div>
+        <h4>Popular searches</h4>
+        <a href="streams.html#science">Best stream after 10th</a>
+        <a href="careers.html">Career options after 10th</a>
+        <a href="exams.html#after10">Exams after 10th</a>
+        <a href="streams.html#diploma">Diploma vs 11th</a>
+      </div>
+    </div>
+    <div class="disclaimer">
+      <strong>Disclaimer:</strong> Independent educational guide, not affiliated with any government body. Salary figures are indicative 2025–26 Indian ranges for fresh entrants and vary greatly with skill, city, institute, company and category — they are a rough compass, not a guarantee. Always verify eligibility and admission details on official portals.
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2026</span> Career Path India. Free to share for students and teachers.</span>
+      <span>Made in India, for students across India.</span>
+    </div>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop" aria-label="Back to top">&#8593;</button>
+<script src="js/app.js"></script>
+<script src="js/careers.js"></script>
+</body>
+</html>
